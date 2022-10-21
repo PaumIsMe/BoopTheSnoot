@@ -1,0 +1,86 @@
+/*
+Orange = #FF7F27
+Cream = #FFFBD9
+BG = #FFAEC9
+*/
+
+div{
+    position: absolute;
+}
+body {
+    background-color: #FFAEC9; /* Sky Blue Background */
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+}
+.ear{
+    top: 0;
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-bottom: 30vh solid #FF7F27;
+}
+.eye{
+    top: 10vh;
+    width: 6vw;
+    height: 3vw;
+    background-color: transparent;
+    border: 1vw solid black;
+
+}
+.owo{
+    border-radius: 4vw 4vw 0 0;
+    border-bottom: 0;
+}
+.uwu{
+    border-radius: 0 0 4vw 4vw;
+    border-top: 0;
+}
+.face{
+    width: 0;
+    height: 0;
+    border-left: 25vw solid transparent;
+    border-right: 25vw solid transparent;
+    border-top: 70vh solid #FF7F27;
+}
+.mask-upper{
+    height: 40vh;
+    width: 50vw;
+    background: #FFFBD9;
+
+}
+.mask-lower{
+    border-right: 25vw solid transparent;
+    border-left: 25vw solid transparent;
+    border-top: 30vh solid #FFFBD9;
+    bottom: 0;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    top: 30vh;
+    height: 70vh;
+    width: 25vw;
+}
+.l{
+    left: 25vw;
+}
+.r{
+    right: 25vw;
+}
+.el{
+    left: 0;
+}
+.er{
+    right: 0;
+}
+button{
+    position: absolute;
+    bottom: 0;
+    width: 5vh;
+    height: 5vh;
+    background: black;
+    border-radius: 50%;
+}
